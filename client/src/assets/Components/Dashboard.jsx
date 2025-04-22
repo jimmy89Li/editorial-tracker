@@ -39,9 +39,9 @@ const Dashboard = () => {
   };
 
   return (
-    <div className='w-lvw flex justify-center flex-wrap mt-4'>
-      <div className='max-w-5xl'>
-        <div className='w-3xl p-4 bg-teal-800 text-white rounded-sm mb-1'>
+    <div className='w-full flex justify-center flex-wrap mt-4'>
+      <div className='w-full max-w-3xl'>
+        <div className='max-w-3xl p-4 bg-teal-800 text-white rounded-sm mb-1'>
           <h2 className='text-2xl mb-2 underline'>Dashboard</h2>
           <p>
             <strong>User: </strong>
@@ -52,7 +52,7 @@ const Dashboard = () => {
             <span>{userData.role}</span>
           </p>
         </div>
-        <div className='w-3xl p-4 bg-teal-800 rounded-sm mb-1 flex justify-between'>
+        <div className='max-w-3xl p-4 bg-teal-800 rounded-sm mb-1 flex justify-between'>
           <a href='/content' className='text-white'>
             <button className='cursor-pointer'>Add new</button>
           </a>
