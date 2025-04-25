@@ -24,10 +24,7 @@ const Login = () => {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: new URLSearchParams({
-          email: email,
-          password: password,
-        }),
+        body: new URLSearchParams({ email, password }),
       })
         .then((response) => response.json())
         .then((data) => {
