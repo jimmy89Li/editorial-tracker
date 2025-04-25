@@ -22,6 +22,10 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  width: 100%;
+}
+
 button, .button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -31,6 +35,7 @@ button, .button {
   font-family: inherit;
   background-color: #318f58;
   transition: border-color 0.25s;
+  height: fit-content;
 }
 button:hover, .button:hover {
   border-color: #bbff4f;

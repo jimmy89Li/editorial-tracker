@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import Login from './assets/Components/Login';
-import Dashboard from './assets/Components/Dashboard';
-import ItemForm from './assets/Components/ItemForm';
+import Login from './Components/Login';
+import Dashboard from './Components/Dashboard';
+import ItemForm from './Components/ItemForm';
 
 function App() {
   return (

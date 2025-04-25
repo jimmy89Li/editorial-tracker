@@ -4,7 +4,7 @@ const ListItem = ({ content }) => {
   return (
     <div
       id={'content-id-' + content.id}
-      className='w-3xl p-4 bg-teal-800 text-white rounded-sm mb-1'
+      className='w-full p-4 bg-teal-800 text-white rounded-sm mb-1'
     >
       <p>
         <strong>Title: </strong>
