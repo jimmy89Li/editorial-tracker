@@ -7,12 +7,12 @@ const users = require('../data/users');
 // Login route.
 router.post('/', (request, response) => {
   if (!request.body) {
-    return response.sendStatus(400);
+    return response.status(400).json({ msg: 'Invalid credentials' });
   }
 
   const { email, password } = request.body;
   if (!email || !password) {
-    return response.sendStatus(400);
+    return response.status(400).json({ msg: 'Invalid credentials' });
   }
 
   const user = users.find(
